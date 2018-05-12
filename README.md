@@ -17,7 +17,7 @@ In This project we are going to use some of the advanced learning algorithm to p
 Hence, based on there Accuracy and the r2_score we will be desciding which algorithm is best for fitting the model in this case.
 
 there are few algorithms which we are going to discuss here such as:
-
+		
 		1-XGBOOST
 		2-GRADIENT BOOSTING REGRESSION
 		3-RANDOM FOREST REGRESSOR

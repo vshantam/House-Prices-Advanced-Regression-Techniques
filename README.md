@@ -18,14 +18,14 @@ Hence, based on there Accuracy and the r2_score we will be desciding which algor
 
 there are few algorithms which we are going to discuss here such as:
 
-	1-XGBOOST
-	2-GRADIENT BOOSTING REGRESSION
-	3-RANDOM FOREST REGRESSOR
+		1-XGBOOST
+		2-GRADIENT BOOSTING REGRESSION
+		3-RANDOM FOREST REGRESSOR
 
 ## XGBOOST
 
 
-
+	
 
 
 

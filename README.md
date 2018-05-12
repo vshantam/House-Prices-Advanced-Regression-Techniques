@@ -10,9 +10,9 @@ This project is based on Kaggel Challage i.e to predict the house prices based o
 
 <b>Link: </b> https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
-<b> Advanced Learning Regression Algorithm </b>
+<b> <h1>Advanced Learning Regression Algorithm</h1> </b>
 
-In This project we are going to use some of the advanced learning algorithm to predict the housing prices. Because it is not easy task to fit the model from training data who has more than 80 features of single house, so we need to work with more complexity such as cleaning the data, label encoding, one hot encoding , dimensionality reduction, features scaling etc.
+In This project we are going to use some of the advanced learning algorithm to predict the housing prices. Because it is not easy task to fit the model from training data who has more than 80 features of single house, so we need to work with more complexity such as <b>cleaning</b> the data, <b>label encoding</b>, <b>one hot encoding</b> , <b>dimensionality reduction</b>, <b>features scaling</b> etc.
 
 Hence, based on there Accuracy and the r2_score we will be desciding which algorithm is best for fitting the model in this case.
 

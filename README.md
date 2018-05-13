@@ -24,6 +24,20 @@ there are few algorithms which we are going to discuss here such as:
 
 ## XGBOOST
 
+XGBoost is an algorithm that has recently been dominating applied machine learning and Kaggle competitions for structured or tabular data.
+
+XGBoost is an implementation of gradient boosted decision trees designed for speed and performance.
+
+It is an implementation of gradient boosting machines created by Tianqi Chen, now with contributions from many developers. It belongs to a broader collection of tools under the umbrella of the Distributed Machine Learning Community or DMLC who are also the creators of the popular mxnet deep learning library.
+
+### Model Features
+
+The implementation of the model supports the features of the scikit-learn and R implementations, with new additions like regularization. Three main forms of gradient boosting are supported:
+
+	
+		1-Gradient Boosting algorithm also called gradient boosting machine including the learning rate.
+		2-Stochastic Gradient Boosting with sub-sampling at the row, column and column per split levels.
+		3-Regularized Gradient Boosting with both L1 and L2 regularization.
 
 	
 

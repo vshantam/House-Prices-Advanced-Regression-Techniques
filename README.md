@@ -110,6 +110,21 @@ the accuracy of the other were quite less comparatively
 As i mentioned earlier, this project is based on kaggle based challange, and this is my first challange so, i will not bother about the accuracy rather than the implementation and evaluation that i learned during the completion of this task.
 
 
+## Screenshot for kaggle submission using :
+
+	XGBOOST	
+
+	![alt_tag](Dataset/Analysis/Figure_5.png)
+
+	Gradient Boosting Regression
+
+	![alt_tag](Dataset/Analysis/Figure_6.png)
+
+	Random Forest REgressor
+
+	![alt_tag](Dataset/Analysis/Figure_7.png)
+
+
 
 	
 

@@ -63,8 +63,20 @@ A random forest is a meta estimator that fits a number of classifying decision t
 
 Based on model evaluation we can easily determine which algorithm to use or not to use..
 
+Dendogram representation
+
+		x-axis "Model algorithm"
+		y-axis "Model evaluation score"	
+
 ![alt_tag](Dataset/Analysis/Figure_1.png)
 
+Bar Graph
+
+![alt_tag](Dataset/Analysis/Figure_2.png)
+
+Pie chart
+
+![alt_tag](Dataset/Analysis/Figure_3.png)
 
 
 

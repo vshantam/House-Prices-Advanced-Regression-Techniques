@@ -114,15 +114,15 @@ As i mentioned earlier, this project is based on kaggle based challange, and thi
 
 	XGBOOST	
 
-	![alt_tag](Dataset/Analysis/Figure_5.png)
+![alt_tag](Dataset/Analysis/Figure_5.png)
 
 	Gradient Boosting Regression
 
-	![alt_tag](Dataset/Analysis/Figure_6.png)
+![alt_tag](Dataset/Analysis/Figure_6.png)
 
 	Random Forest REgressor
 
-	![alt_tag](Dataset/Analysis/Figure_7.png)
+![alt_tag](Dataset/Analysis/Figure_7.png)
 
 
 

@@ -85,6 +85,12 @@ Pie chart
 
 run the following command
 
+got to the project directory 
+
+		cd House-Prices-Advanced-Regression-Techniques/
+
+run main.py using below commands
+
 		ipython3 main.py # if you are using ipython3 
 		python3 main.py # if you are using python 3 interface
 

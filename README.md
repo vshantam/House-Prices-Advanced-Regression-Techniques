@@ -94,5 +94,22 @@ run main.py using below commands
 		ipython3 main.py # if you are using ipython3 
 		python3 main.py # if you are using python 3 interface
 
+# Evaluation Outcome
 
+As you can see the most accurate reasult i got using XGBoost algorithm i.e 
+
+		XGBoost: 0.885548 (0.038005)
+
+the accuracy of the other were quite less comparatively
+
+		GBR: 0.659314 (0.088491)
+		RFR: 0.853422 (0.034440)
+
+# Kaggle submission 
+
+As i mentioned earlier, this project is based on kaggle based challange, and this is my first challange so, i will not bother about the accuracy rather than the implementation and evaluation that i learned during the completion of this task.
+
+
+
+	
 

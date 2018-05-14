@@ -39,6 +39,24 @@ The implementation of the model supports the features of the scikit-learn and R 
 		2-Stochastic Gradient Boosting with sub-sampling at the row, column and column per split levels.
 		3-Regularized Gradient Boosting with both L1 and L2 regularization.
 
+## Gradient Boosting Regression
+
+Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function.
+
+Like other boosting methods, gradient boosting combines weak "learners" into a single strong learner in an iterative fashion. It is easiest to explain in the least-squares regression setting, where the goal is to "teach" a model F {\displaystyle F} F to predict values of the form y ^ = F ( x ) {\displaystyle {\hat {y}}=F(x)} \hat{y} = F(x) by minimizing the mean squared error ( y ^ − y ) 2 {\displaystyle ({\hat {y}}-y)^{2}} (\hat{y} - y)^2, averaged over some training set of actual values of the output variable y {\displaystyle y} y.
+
+At each stage m {\displaystyle m} m, 1 ≤ m ≤ M {\displaystyle 1\leq m\leq M} 1 \le m \le M, of gradient boosting, it may be assumed that there is some imperfect model F m {\displaystyle F_{m}} F_m (at the outset, a very weak model that just predicts the mean y in the training set could be used). The gradient boosting algorithm improves on F m {\displaystyle F_{m}} F_m by constructing a new model that adds an estimator h to provide a better model: F m + 1 ( x ) = F m ( x ) + h ( x ) {\displaystyle F_{m+1}(x)=F_{m}(x)+h(x)} F_{m+1}(x) = F_m(x) + h(x). To find h {\displaystyle h} h, the gradient boosting solution starts with the observation that a perfect h would imply
+
+    F m + 1 ( x ) = F m ( x ) + h ( x ) = y {\displaystyle F_{m+1}(x)=F_{m}(x)+h(x)=y} {\displaystyle F_{m+1}(x)=F_{m}(x)+h(x)=y}
+
+or, equivalently,
+
+    h ( x ) = y − F m ( x ) {\displaystyle h(x)=y-F_{m}(x)} h(x) = y - F_m(x) .
+
+Therefore, gradient boosting will fit h to the residual y − F m ( x ) {\displaystyle y-F_{m}(x)} y - F_m(x). Like in other boosting variants, each F m + 1 {\displaystyle F_{m+1}} F_{m+1} learns to correct its predecessor F m {\displaystyle F_{m}} F_m. A generalization of this idea to loss functions other than squared error — and to classification and ranking problems — follows from the observation that residuals y − F ( x ) {\displaystyle y-F(x)} y - F(x) for a given model are the negative gradients (with respect to F(x)) of the squared error loss function 1 2 ( y − F ( x ) ) 2 {\displaystyle {\frac {1}{2}}(y-F(x))^{2}} \frac{1}{2}(y - F(x))^2. So, gradient boosting is a gradient descent algorithm; and generalizing it entails "plugging in" a different loss and its gradient.
+
+
+
 	
 
 

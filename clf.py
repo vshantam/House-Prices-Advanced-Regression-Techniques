@@ -7,6 +7,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn import ensemble
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
+from sklearn.preprocessing import StandardScaler
+
 
 class classifier(object):
 
@@ -48,6 +50,14 @@ class classifier(object):
 		return self.X,self.Y
 
 	@classmethod
+	def scale(self):
+
+		sc = StandardScaler()
+		self.X = sc.fit_transform(self.X)
+		
+		return self.X
+
+	@classmethod
 	def model(self):
 	
 		self.clf = XGBRegressor()
@@ -72,7 +82,8 @@ if __name__ == "__main__":
 	df= obj.encoding()
 
 	X,Y = obj.load_x_y()
-
+	
+	obj.scale()
 	obj.model()
 	obj.save_model()
 

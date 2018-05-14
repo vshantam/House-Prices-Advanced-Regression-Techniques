@@ -4,9 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import model_selection
 from sklearn.preprocessing import LabelEncoder
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import SVC
 from sklearn import ensemble
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
@@ -14,9 +11,12 @@ from xgboost import XGBRegressor
 # load dataset
 path = 'Dataset/train.csv'
 
+#loading dataset
 df = pd.read_csv(path, sep = ",", engine = "python")
+#taking care of null values
 df = df.fillna('0')
 
+#label encoding
 lb_make = LabelEncoder()
 
 heads = df.columns
@@ -24,7 +24,7 @@ for i in range(len(df.columns)):
 	if df[heads[i]].dtypes == 'O':
 		df[heads[i]] = lb_make.fit_transform(df[heads[i]].astype(str))
 
-
+#extracting input and output features
 X = df.iloc[:,:-1].values
 Y = df.iloc[:,-1].values
 # prepare configuration for cross validation test harness
@@ -33,6 +33,7 @@ seed = 7
 
 # prepare models
 
+#model evaluation
 models = []
 
 models.append(('XGBoost',XGBRegressor()))

@@ -79,4 +79,14 @@ Pie chart
 ![alt_tag](Dataset/Analysis/Figure_3.png)
 
 
+# Sample screenshot of model evaluation accuracy
+
+![alt_tag](Dataset/Analysis/Figure_4.png)
+
+run the following command
+
+		ipython3 main.py # if you are using ipython3 
+		python3 main.py # if you are using python 3 interface
+
+
 

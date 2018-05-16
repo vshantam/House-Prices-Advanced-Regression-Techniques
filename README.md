@@ -96,6 +96,11 @@ run main.py using below commands
 
 # Evaluation Outcome
 
+run the following command:
+
+		ipython3 evaluate_model.py #for ipython3 version
+
+
 As you can see the most accurate reasult i got using XGBoost algorithm i.e 
 
 		XGBoost: 0.885548 (0.038005)
@@ -104,6 +109,10 @@ the accuracy of the other were quite less comparatively
 
 		GBR: 0.659314 (0.088491)
 		RFR: 0.853422 (0.034440)
+
+To run the main program for test data, use the following command:
+
+		ipython3 driver.py #will generate the output in the terminal
 
 # Kaggle submission 
 
@@ -126,5 +135,8 @@ As i mentioned earlier, this project is based on kaggle based challange, and thi
 
 
 
-	
+# Conclusion
+
+As you can see in the screenshot the scoe is better using Random Forest Regressor even though the accuracit is less comapretively to the XGBoost regresor.
+
 

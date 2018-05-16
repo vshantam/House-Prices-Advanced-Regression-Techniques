@@ -139,4 +139,8 @@ As i mentioned earlier, this project is based on kaggle based challange, and thi
 
 As you can see in the screenshot the scoe is better using Random Forest Regressor even though the accuracit is less comapretively to the XGBoost regresor.
 
+<B> Kaggle Score :</B> 4114
+<B> Kaggle Percencitle : </B> 77%
+
+
 

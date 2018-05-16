@@ -89,10 +89,10 @@ got to the project directory
 
 		cd House-Prices-Advanced-Regression-Techniques/
 
-run main.py using below commands
+run evaluate_model.py using below commands
 
-		ipython3 main.py # if you are using ipython3 
-		python3 main.py # if you are using python 3 interface
+		ipython3 evaluate_model.py #for ipython3 version ,if you are using ipython3 
+		python3  evaluate_model.py #if you are using python 3 interface
 
 # Evaluation Outcome
 

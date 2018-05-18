@@ -114,7 +114,7 @@ the accuracy of the other were quite less comparatively
 
 To run the main program for test data, use the following command:
 
-		ipython3 driver.py #will generate the output in the terminal
+		ipython3 main.py #will generate the output in the terminal
 
 # Kaggle submission 
 

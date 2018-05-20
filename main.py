@@ -5,6 +5,7 @@ import pickle
 
 
 class Main(object):
+
 	def __init__(self,path="classifier/clf.pkl"):
 		self.path= path
 	
@@ -17,6 +18,7 @@ class Main(object):
 		
 		self.df = pd.read_csv(loc, sep=",",engine="python")
 		self.df = self.df.fillna('0')
+
 		#label encoding
 		lb_make = LabelEncoder()
 		heads = self.df.columns
@@ -26,7 +28,6 @@ class Main(object):
 
 		sc = StandardScaler()
 		self.x= sc.fit_transform(self.df)
-		
 
 		return self.x
 
@@ -39,9 +40,5 @@ if __name__ == "__main__":
 	output = clf.predict(test)
 
 	print("The result is : {}".format(output))
-
-	
-	
-
 
 
